@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <title>Hangman</title>
+</head>
+
+<body>
+    <div id="stage">
+        <img id="base" src="images/base.png">
+        <img id="part1" src="images/peice1.png">
+        <img id="part2" src="images/peice2.png">
+        <img id="part3" src="images/peice3.png">
+        <img id="part4" src="images/peice4.png">
+        <img id="rope" src="images/rope.png">
+        <img id="head" src="images/head.png">
+        <img id="eyes" src="images/eyes.png">
+        <img id="mouth" src="images/mouth.png">
+        <img id="body" src="images/body.png">
+        <img id="arm1" src="images/arm.png">
+        <img id="arm2" src="images/arm2.png">
+        <img id="leg1" src="images/leg.png">
+        <img id="leg2" src="images/leg2.png">
+        <img id="cross" src="images/cross eyes.png">
+
+        <div id="lettersDiv">
+            <div class="letter">
+                <p>H</p>
+            </div>
+            <div class="letter">
+                <p>A</p>
+            </div>
+            <div class="letter">
+                <p>N</p>
+            </div>
+            <div class="letter">
+                <p>G</p>
+            </div>
+            <div class="letter">
+                <p>M</p>
+            </div>
+            <div class="letter">
+                <p>A</p>
+            </div>
+            <div class="letter">
+                <p>N</p>
+            </div>
+        </div>
+        <div id="lettersChoiceDiv">
+            <button onclick="guessLetter('A')" name="A">A</button>
+            <button onclick="guessLetter('B')" name="B">B</button>
+            <button onclick="guessLetter('C')" name="C">C</button>
+            <button onclick="guessLetter('D')" name="D">D</button>
+            <button onclick="guessLetter('E')" name="E">E</button>
+            <button onclick="guessLetter('F')" name="F">F</button>
+            <button onclick="guessLetter('G')" name="G">G</button>
+            <button onclick="guessLetter('H')" name="H">H</button>
+            <button onclick="guessLetter('I')" name="I">I</button>
+            <button onclick="guessLetter('J')" name="J">J</button>
+            <button onclick="guessLetter('K')" name="K">K</button>
+            <button onclick="guessLetter('L')" name="L">L</button>
+            <button onclick="guessLetter('M')" name="M">M</button>
+            <button onclick="guessLetter('N')" name="N">N</button>
+            <button onclick="guessLetter('O')" name="O">O</button>
+            <button onclick="guessLetter('P')" name="P">P</button>
+            <button onclick="guessLetter('Q')" name="Q">Q</button>
+            <button onclick="guessLetter('R')" name="R">R</button>
+            <button onclick="guessLetter('S')" name="S">S</button>
+            <button onclick="guessLetter('T')" name="T">T</button>
+            <button onclick="guessLetter('U')" name="U">U</button>
+            <button onclick="guessLetter('V')" name="V">V</button>
+            <button onclick="guessLetter('W')" name="W">W</button>
+            <button onclick="guessLetter('X')" name="X">X</button>
+            <button onclick="guessLetter('Y')" name="Y">Y</button>
+            <button onclick="guessLetter('Z')" name="Z">Z</button>
+        </div>
+
+        <div id="start">
+            <h2>Play</h2>
+            <button onclick="start()">Go</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

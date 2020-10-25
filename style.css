@@ -1,0 +1,176 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+#stage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(238, 252, 248);
+    width: 1000px;
+    height: 650px;
+    overflow: hidden;
+}
+#base {
+    position: absolute;
+    bottom: 00px;
+    right: 0;
+    height: 40px;
+    width: 100%;
+}
+#part1 {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    height: 30px;
+}
+#part2 {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    height: 500px;
+    width: 40px;
+}
+#part3 {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    height: 40px;
+}
+#part4 {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+#rope {
+    position: absolute;
+    top: 80px;
+    left: 260px;
+    z-index: -1;
+}
+#head {
+    position: absolute;
+    top: 200px;
+    left: 220px;
+    z-index: -1;
+}
+#eyes {
+    position: absolute;
+    top: 225px;
+    left: 250px;
+    z-index: -1;
+    visibility: hidden;
+}
+#cross {
+    position: absolute;
+    top: 230px;
+    left: 250px;
+    z-index: -1;
+}
+#mouth {
+    position: absolute;
+    top: 265px;
+    left: 255px;
+    z-index: -1;
+}
+#body {
+    position: absolute;
+    top: 303px;
+    left: 265px;
+    height: 130px;
+    z-index: -1;
+}
+#arm1 {
+    position: absolute;
+    top: 303px;
+    left: 265px;
+
+    z-index: -1;
+}
+#arm2 {
+    position: absolute;
+    top: 285px;
+    left: 208px;
+    z-index: -1;
+}
+#leg1 {
+    position: absolute;
+    top: 425px;
+    left: 263px;
+
+    z-index: -1;
+}
+#leg2 {
+    position: absolute;
+    top: 425px;
+    left: 200px;
+    z-index: -1;
+}
+#lettersDiv {
+    width: 400px;
+    position: absolute;
+    top: 80px;
+    left: 440px;
+    height: 500px;
+    font-size: 0;
+}
+.letter {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-bottom: 5px solid black;
+    display: inline-block;
+    margin: 3px;
+}
+.space {
+    width: 50px;
+    height: 0px;
+    text-align: center;
+    display: block;
+}
+p {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0;
+}
+#lettersChoiceDiv {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: fit-content;
+}
+#lettersChoiceDiv button {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    background-color: rgb(213, 254, 255);
+    border-radius: 15px;
+    border: 2px solid;
+}
+#lettersChoiceDiv button:hover:enabled {
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+#start {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 80px;
+    box-sizing: border-box;
+    background-color: lightsteelblue;
+    border-radius: 25px;
+    border: 3px solid lightslategray;
+}
+#start h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+#start button {
+    width: 120px;
+    height: 40px;
+}
